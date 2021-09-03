@@ -4,7 +4,6 @@ Created on Fri Sep  3 15:59:28 2021
 
 @author: USER
 """
-
 # Ejercicio 1
 #  y = ( (5+2-5)^2 * 5+8/2 -30 ) / 2 * 5 -3
 parentesis = 5 + 2 - 5
@@ -16,4 +15,9 @@ dos_por_cinco_menos_tres = 2 * 5 - 3
 division_total = parentesis_total / dos_por_cinco_menos_tres
 print(f'El resultado de la operacion es: {division_total}')
 
+# Ejercicio 2
+# z=5
+# n=3
+# m= z-n
+# y = (( (z+2-n)^2 * m+8/2 -30 ) / 2 * 5 -3)^ 5 + 15 * 3 - 9/3
 
