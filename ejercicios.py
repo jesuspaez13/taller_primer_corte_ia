@@ -65,6 +65,24 @@ r = 200 - edad
 d = r / 10
 print(f'El numeo de pulsaciones que esta persona debe tener es de: {d}')
 
+# Problema 3
+persona1 = float(input('Digite la cantidad de la persona 1: '))
+persona2 = float(input('Digite la cantidad de la persona 2: '))
+persona3 = float(input('Digite la cantidad de la persona 3: '))
+suma = persona1 + persona2 + persona3
+p1 = (persona1 / suma) * 100
+p2 = (persona2 / suma) * 100
+p3 = (persona3 / suma) * 100
+print(f'La cantidad total invertida es de: {suma}')
+print(f'El porcentaje de la primera persona es: {p1}%')
+print(f'El porcentaje de la segunda persona es: {p2}%')
+print(f'El porcentaje de la tercera persona es: {p3}%')
+
+
+
+
+
+
 
 
 
