@@ -135,6 +135,19 @@ total = precio + iva
 print(f'El precio total sin IVA es: {precio}')
 print(f'El precio total con IVA es: {total}')
 
+# Problema 11
+mp = float(input('Digite el monto presupuestal: '))
+g = mp * 0.4
+t = mp * 0.3
+p = mp * 0.3
+print(f'El monto para ginecologia es: {g}')
+print(f'El monto para traumatologia es: {t}')
+print(f'El monto para pediatria es: {p}')
+
+
+
+
+
 
 
 
