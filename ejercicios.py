@@ -121,6 +121,22 @@ total = pago - descuento
 print(f'El monto de descuento es: ${descuento}')
 print(f'El monto a pagar al profesor es: ${total}')
 
+# Problema 9
+monto_inicial = float(input('Digite el monto inicial de la tarjeta: '))
+recargo = monto_inicial * 0.2
+monto_final = monto_inicial + recargo
+print(f'El monto total a cobrar de la tarjeta es: ${monto_final}')
+
+# Problema 10
+num_fotos = float(input('Digite el numero de fotos: '))
+precio = num_fotos * 1500
+iva = precio * 0.16
+total = precio + iva
+print(f'El precio total sin IVA es: {precio}')
+print(f'El precio total con IVA es: {total}')
+
+
+
 
 
 
