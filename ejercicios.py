@@ -108,6 +108,12 @@ pco = num_colores * 25000
 total = pp + pc + pco
 print(f'El monto a pagar por el aviso es: ${total}')
 
+# Problema 7
+años = float(input('Digite la cantidad de años: '))
+total = (años * 120000 - (120000)) + 100000
+print(f'El monto a pagar al trabajador es: ${total}')
+
+
 
 
 
