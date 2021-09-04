@@ -40,14 +40,29 @@ print(f'El resultado de la operacion es: {total}')
 # m= z^2*3+n
 # y = ((( (z+2-n)^2 x m+8/2 -30 ) / 2 * 5 -3)^ 5 + 15 * 3 - 9/3) ^ 2 – 5/4
 z = 5
-n = ( ((8 + 2 - 4) ** 2) * (5 + 8 + 7 / 2 - 30 * 5)) / 2 * 5 - 3
+n = (((8 + 2 - 4) ** 2) * (5 + 8 + 7 / 2 - 30 * 5)) / 2 * 5 - 3
 m = (z ** 2) * 3 + n
 sy = (((z + 2 - n) ** 2) * (m + 8 / 2 - 30))
-op = (sy / (2 * 5 -3)) ** 5 
+op = ((sy / (2 * 5 - 3)) ** 5)
 suma = op + (15 * 3 - 9 / 3)
 suma_al_cuadrado = suma ** 2
 total = suma_al_cuadrado - (5 / 4)
 print(f'El resultado de la operacion es: {total}')
+
+# Problema 1
+presion = float(input('Digite la presion: '))
+volumen = float(input('Digite el volumen: '))
+temperatura = float(input('Digite la temperatura: '))
+m = presion * volumen
+s = temperatura + 460
+mu = 0.37 * s
+d = m / mu
+print(f'La masa es igual a: {d}')
+
+
+
+
+
 
 
 
