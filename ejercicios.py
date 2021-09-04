@@ -113,6 +113,14 @@ años = float(input('Digite la cantidad de años: '))
 total = (años * 120000 - (120000)) + 100000
 print(f'El monto a pagar al trabajador es: ${total}')
 
+# Problema 8
+hora = float(input('Digite la cantidad de horas: '))
+pago = hora * 20000
+descuento = pago * 0.05
+total = pago - descuento
+print(f'El monto de descuento es: ${descuento}')
+print(f'El monto a pagar al profesor es: ${total}')
+
 
 
 
