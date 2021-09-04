@@ -144,6 +144,14 @@ print(f'El monto para ginecologia es: {g}')
 print(f'El monto para traumatologia es: {t}')
 print(f'El monto para pediatria es: {p}')
 
+# Problema 12
+da = float(input('Digite el numero total de DVDs alquilados: '))
+nd = float(input('Digite el numero de dias que las va alquilar: '))
+pago1 = da * 1500
+pago2 = pago1 * nd
+print(f'El total a pagar es: {pago2}')
+
+
 
 
 
