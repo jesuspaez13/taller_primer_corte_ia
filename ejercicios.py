@@ -161,6 +161,12 @@ total = dias + iva
 print(f'El IVA son: {iva}')
 print(f'El precio total son: {total}')
 
+# Problema 14
+cd = float(input('Digite la cantidad de dias: '))
+pago = (cd * 200000) - 100000
+print(f'La cantidad a pagar es: {pago}')
+
+
 
 
 
