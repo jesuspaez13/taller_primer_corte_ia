@@ -84,6 +84,21 @@ o = (ma * 1.5) / 100
 saldo_final = ma + o
 print(f'El saldo final es: ${saldo_final}')
 
+# Problema 5
+sueldo = float(input('Digite el sueldo del trabajador: '))
+ley_de_politica = sueldo * 0.01
+seguro_social = sueldo * 0.04
+seguro_forzoso = sueldo * 0.005
+caja_de_ahorro = sueldo * 0.05
+monto_total = sueldo - (ley_de_politica + seguro_social + seguro_forzoso
+                        + caja_de_ahorro)
+print(f'El monto por ley de politica es: ${ley_de_politica}')
+print(f'El monto por seguro social es: ${seguro_social}')
+print(f'El monto por seguro forzoso es: ${seguro_forzoso}')
+print(f'El monto por caja de ahorro es: ${caja_de_ahorro}')
+print(f'El sueldo total es: ${monto_total}')
+
+
 
 
 
