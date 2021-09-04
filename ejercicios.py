@@ -166,6 +166,19 @@ cd = float(input('Digite la cantidad de dias: '))
 pago = (cd * 200000) - 100000
 print(f'La cantidad a pagar es: {pago}')
 
+# Problema 15
+cp = float(input('Digite la cantidad a prestar: '))
+i = cp * 0.24
+it = cp + i
+divi = it / 2
+esp = divi / 4
+ordi = divi / 20
+print(f'El monto total a pagar es: {it}')
+print(f'El monto de las cuotas especiales son 4 cuotas de: {esp}')
+print(f'El monto de las cuotas ordinarias son 20 cuotas de: {ordi}')
+
+
+
 
 
 
