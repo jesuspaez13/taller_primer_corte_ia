@@ -59,6 +59,13 @@ mu = 0.37 * s
 d = m / mu
 print(f'La masa es igual a: {d}')
 
+# Problema 2
+edad = float(input('Digite la edad: '))
+r = 200 - edad
+d = r / 10
+print(f'El numeo de pulsaciones que esta persona debe tener es de: {d}')
+
+
 
 
 
