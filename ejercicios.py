@@ -98,6 +98,17 @@ print(f'El monto por seguro forzoso es: ${seguro_forzoso}')
 print(f'El monto por caja de ahorro es: ${caja_de_ahorro}')
 print(f'El sueldo total es: ${monto_total}')
 
+# Problema 6
+num_palabras = float(input('Digite la cantidad de palabras: '))
+num_centimetros = float(input('Digite el tamaño en centimetros: '))
+num_colores = float(input('Digite la cantidad de colores: '))
+pp = num_palabras * 20000
+pc = num_centimetros * 15000
+pco = num_colores * 25000
+total = pp + pc + pco
+print(f'El monto a pagar por el aviso es: ${total}')
+
+
 
 
 
