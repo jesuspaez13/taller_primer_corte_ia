@@ -151,6 +151,18 @@ pago1 = da * 1500
 pago2 = pago1 * nd
 print(f'El total a pagar es: {pago2}')
 
+# Problema 13
+nf = float(input('Digite el numero total de personas: '))
+nd = float(input('Digite la cantidad de dias: '))
+costo = nf * 25000
+dias = costo * nd
+iva = dias * 0.12
+total = dias + iva
+print(f'El IVA son: {iva}')
+print(f'El precio total son: {total}')
+
+
+
 
 
 
