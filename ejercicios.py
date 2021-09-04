@@ -78,6 +78,14 @@ print(f'El porcentaje de la primera persona es: {p1}%')
 print(f'El porcentaje de la segunda persona es: {p2}%')
 print(f'El porcentaje de la tercera persona es: {p3}%')
 
+# Problema 4
+ma = float(input('Digite el monto ahorrado: '))
+o = (ma * 1.5) / 100
+saldo_final = ma + o
+print(f'El saldo final es: ${saldo_final}')
+
+
+
 
 
 
